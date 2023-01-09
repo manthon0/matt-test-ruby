@@ -1,0 +1,7 @@
+<%=@the_text%>
+
+<% @the_text.each do |a_word|%>
+  <%@new_text = @new_text + a_word.at(0) + " "%>
+<%end%>
+
+<%=@new_text%>
